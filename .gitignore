@@ -1,0 +1,23 @@
+# PDF論文は著作権の観点からpublicリポジトリに含めない
+# PDFはローカル／Obsidian側で管理し、このリポジトリには
+# 書誌情報（.bib）・要約・考察ノートのみを置く
+*.pdf
+*.PDF
+
+# クレデンシャル類（APIキー・トークン等の誤コミット防止）
+# .env.example はサンプルとして共有してよいので除外の対象外
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+*.swp
